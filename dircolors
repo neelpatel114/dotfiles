@@ -1,0 +1,75 @@
+# LS_COLORS for black background - Rust/C/Python dev
+# Core file types
+RESET 0
+DIR 1;34
+LINK 1;36
+EXEC 1;32
+SOCK 1;35
+FIFO 33
+BLK 1;33
+CHR 1;33
+SETUID 1;31
+SETGID 1;31
+STICKY_OTHER_WRITABLE 1;34;4
+OTHER_WRITABLE 1;34;4
+
+# Source code - primary
+.rs 1;33
+.c 1;36
+.h 1;36
+.py 1;34
+
+# Config/Data
+.json 32
+.xml 35
+.toml 32
+.yaml 32
+.yml 32
+
+# Documentation
+.md 37
+.txt 37
+
+# Build artifacts (dim)
+.o 90
+.pyc 90
+.rlib 90
+.rmeta 90
+.d 90
+
+# Vim swap (dim)
+.swp 1;30
+.swo 1;30
+
+# Scripts
+.sh 1;32
+.bash 1;32
+.zsh 1;32
+
+# Archives
+.zip 1;35
+.tar 1;35
+.gz 1;35
+.bz2 1;35
+.xz 1;35
+.7z 1;35
+
+# Images (keep subtle)
+.png 35
+.jpg 35
+.jpeg 35
+.gif 35
+.svg 35
+.ico 35
+
+# Audio/Video
+.mp3 35
+.wav 35
+.mp4 35
+.mov 35
+.avi 35
+
+# Documents
+.pdf 33
+.doc 33
+.docx 33
